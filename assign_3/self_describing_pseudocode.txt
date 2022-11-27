@@ -1,0 +1,28 @@
+
+
+MATRIC NO: 222515
+NAME: Sunday Isaac Andikan
+
+
+Step 1: Start
+Step 2: READ “file.in” file
+Step 3: Check if file is empty
+Step 4: DECLARE numberOfTestCases
+Step 5: Read first line of file and initialize numberOfTestCases to first line
+Step 6: Loop over the numberOfTestCases
+Step 7: DECLARE variable to store number
+Step 8: Read the next line of the file and initialize number to that line
+Step 9: Check length of number
+Step 10: DECLARE and initialize variable i to 0
+Step 11: Start loop
+Step 12: DECLARE and initialize count to 0
+Step 13: DECLARE and initialize numOfOccurence to index i of number
+Step 14: Loop over number
+Step 15: Count how many times a digit occurs in the number
+Step 16: Increment count
+Step 17: If count is not equal to numOfOccurence, number is not a self
+describing number
+Step 18: DISPLAY “Not self-describing”
+Step 19: If i is less than length, go back to step 12
+Step 20:  DISPLAY “Self-describing”
+Step 21: Stop

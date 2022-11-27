@@ -1,0 +1,29 @@
+
+
+MATRIC NO: 222515
+NAME: Sunday Isaac Andikan
+
+DUPLICATE FILE CHECKER PSEUDOCODE
+Step 1: Start
+Step 2: READ “files.in” file
+Step 3: DECLARE numberOfTestCases
+Step 4: initialize numberOfTestCases with first line of file
+Step 5: DECLARE i
+Step 6: SET i to 0
+Step 7: DECLARE numberOfFiles
+Step 8: Read next line of file, initialize numberOfFiles
+Step 9: Start another loop, initialize j to 0
+Step 10: DECLARE fileName, file_id, previousFileName and previous_id
+variables
+Step 11: Read next line of file,
+Step 12: SET fileName and file_id with data from line
+Step 13: Compare fileName with previousFileName
+Step 14: if fileName equals previousFileName, go to step 15, else, go to
+step 16
+Step 15: if previous_id is greater than file_id, set previous_id to file_id,
+Step 16: increment j with 1
+Step 17: if j is less than numberOfFiles, go back to step 10
+Step 18: increment i with 1
+Step 19: if i is less than numberOfTestCases, go back to step 7
+Step 20: Close file
+Step 21: Stop
